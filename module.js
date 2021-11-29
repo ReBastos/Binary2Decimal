@@ -1,13 +1,13 @@
 
-function binaryToDecimal () {
+function binaryToDecimal (binary) {
 
-    let binary = "11001";
     let strLenght = binary.length;
     strLenght -= 1;
     let total = 0;
 
 
-    for(i = 0; i < binary.length; i++){
+    for(var i = 0; i < binary.length; i++){
+        console.log("teste;")
 
         total = total +  ((Math.pow(2, i)) * parseInt(binary[strLenght]));
 
@@ -21,4 +21,4 @@ function binaryToDecimal () {
 
 }
 
-console.log(binaryToDecimal());
+export default binaryToDecimal;
