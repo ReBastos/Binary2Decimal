@@ -1,5 +1,5 @@
 
-function binaryToDecimal (binary) {
+const binaryToDecimal = (binary) => {
 
     let strLenght = binary.length;
     strLenght -= 1;
@@ -7,7 +7,7 @@ function binaryToDecimal (binary) {
 
 
     for(var i = 0; i < binary.length; i++){
-        console.log("teste;")
+        
 
         total = total +  ((Math.pow(2, i)) * parseInt(binary[strLenght]));
 
