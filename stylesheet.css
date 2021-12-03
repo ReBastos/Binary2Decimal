@@ -19,3 +19,26 @@ main{
     gap: 25px;
     background-color: lightsalmon;
 }
+
+#binary{
+    border: none;
+    height: 20px;
+    border-radius: 7px;
+}
+
+#submit{
+    border: none;
+    height: 20px;
+    width: 100px;
+    color: rgb(224, 113, 80);
+    font-weight: bold;
+    background-color: white;
+    border-radius: 7px;
+}
+
+#value{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(83, 99, 117);
+}
